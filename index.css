@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+header {
+    box-shadow: 0px 0px 16px 0px rgba(183, 183, 183, 0.25);
+    margin-bottom: 40px;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.btn-1 {
+    margin: 0 15px 0 205px;
+}
+
+.nav-bar img {
+    width: 16px;
+    height: 14px;
+}
+
+.btn-1 button {
+    border-radius: 8px;
+    background: #272727;
+    height: 48px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    font-family: "Lexend", sans-serif;
+    color: white;
+}
+
+.para-h1 {
+    margin: 0 16px 72px 16px;
+}
+
+.para-h1 h1 {
+    color: #141B34;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    font-family: "Lexend", sans-serif;
+}
+
+.para-h1 .super {
+    background: linear-gradient(270deg, #FF2D2D 0%, #BD00FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lexend", sans-serif;
+}
+
+.about-us {
+    padding: 48px 16px;
+    border-radius: 16px;
+    background: #F5FCFF;
+}
+
+.about-us h1 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.about-us p {
+    color: #141B34;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.line {
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.text h3 {
+    color: #2E2E2E;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.text p {
+    color: #2E2E2E;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.muzammil {
+    display: flex;
+    margin: 20px 0;
+}
+
+.logo-2 img {
+    width: 57px;
+    margin: 0 25px;
+}
+
+.img {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+.portfolio h1 {
+    color: #141B34;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text-2 h1 {
+    color: #141B34;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+.text-2 .redesign {
+    color: rgb(112, 224, 0);
+}
+
+.portfolio {}
+
+.lums {
+    font-weight: bold;
+}
+
+.text-2 p {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.section {
+    border: 2px solid rgb(217, 217, 217);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+
+.bg {
+    position: absolute;
+}
+
+.pixel-lab {
+    position: relative;
+    z-index: 2;
+    top: 2px;
+    right: 1px;
+}
+
+.text-3 h1 {
+    font-family: Montserrat;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 900;
+    background: var(--Gradient-Blue, linear-gradient(126deg, #38B6FF 15.93%, #0088D7 83.37%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 15px 0;
+}
+
+.text-3 p {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.text-3 .app {
+    color: #38B6FF;
+}
+
+.btn-project button {
+    background-color: #242424;
+    color: #fff;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    border-radius: 4px;
+    width: 100%;
+    height: 65px;
+    border-radius: 8px; 
+    border: none;
+
+}
+
+.services h1 {
+    color: #141B34;
+    font-family: Lexend;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 0 16px 16px;
+}
+
+.service h3 {
+    color: #141B34;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+}
+
+.service .p {
+    color: #292929;
+    font-family: Montserrat;
+    font-size: 14px;
+    border-radius: 32px;
+    background: #FFF;
+    height: 48px;
+    flex: 1 1 390px;
+    padding: 1px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin: 8px 0;
+
+}
+
+.service {
+    background-color: #F3F3F8;
+    padding: 32px 16px;
+    border-radius: 12px;
+
+}
+
+.website {
+    color: #292929;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 32px;
+    background: #FFF;
+    height: 48px;
+    flex: 1 1 390px;
+    padding: 1px;
+    background-color: white;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services {
+    margin: 12px 16px;
+}
+
+.service-2 {
+    padding: 32px 16px;
+    border-radius: 12px;
+    background: #F0F8F0;
+}
+
+.service-2 p {
+    color: #292929;
+    font-family: Montserrat;
+    font-size: 14px;
+    border-radius: 32px;
+    background: #FFF;
+    height: 48px;
+    flex: 1 1 390px;
+    padding: 1px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.service-2 h3 {
+    color: #141B34;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+}
+
+.d-fll {
+    display: flex;
+    gap: 10px;
+}
+
+.service-3 {
+    background: #F0F8F8;
+    padding: 32px 16px;
+    border-radius: 12px;
+}
+
+.service-3 p {
+    color: #292929;
+    font-family: Montserrat;
+    font-size: 14px;
+    border-radius: 32px;
+    background: #FFF;
+    height: 48px;
+    flex: 1 1 390px;
+    padding: 1px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-3 h3 {
+    color: #141B34;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+}
+
+.margin {
+    margin: 0 16px 72px 16px;
+}
+
+.headings .heading {
+    color: #141B34;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    margin: 24px 0 32px 0;
+    font-weight: 700;
+}
+
+.headings h3 {
+    color: #141B34;
+    font-family: Lexend;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 0 16px 0;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.section-2 {
+    display: flex;
+}
+
+.section-1 p {
+    font-family: Lexend;
+    display: flex;
+    padding: 16px 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 300px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 8px 8px 0;
+}
+
+.section-2 p {
+    display: flex;
+    font-family: Lexend;
+    padding: 16px 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 300px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 8px 0 0;
+}
+
+
+input {
+    width: 91%;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    padding: 16px;
+    color: #353535;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+input:focus{
+    outline: none;
+}
+form {
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.optniol{
+    position: relative;
+}
+.optiniol{
+    position: absolute;
+  right: 30px;
+  top: 18px;
+  color: #353535;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+form button{
+    background-color: #242424;
+  color: #fff;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  border-radius: 4px;
+  width: 100%;
+  margin: 24px 0 0 0;
+  border-radius: 8px; 
+  height: 65px;
+  border: none;
+}
+footer{
+    border-radius: 24px 24px 0px 0px;
+  background: #131313;
+  padding: 32px 16px 24px 16px;
+}
+.footer p{
+    color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 600; 
+margin: 8px 0;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    color: #FFF;
+/* 16 Body */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400; 
+margin: 16px;
+}
+.last{
+    color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin: 32px 0 24px 0;
+}
+
+
+
+/* hoooooooover */
+
+.service p:hover{
+    background-color:rgba(0,0,255,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+}
+.service-2 p:hover{
+    background-color:rgba(0,0,255,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+}
+.service-3 p:hover{
+    background-color:rgba(0,0,255,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+}
+.section-1 p:hover{
+    background-color:rgba(0,0,255,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+}
+.section-2 p:hover{
+    background-color:rgba(0,0,255,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+}
+.img:hover{
+    cursor: pointer;
+}
+
+
+/* media  */
+
+
+@media screen and ( min-width:300px) and (max-width:414px) {
+    .section-1 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .section-1 p{
+        flex: 1 1 200px;
+    }
+    .section-2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }
+    .section-2 p{
+        flex: 1 1 200px;
+        
+    }
+    .para-h1 h1{
+        font-size: 40px;
+    }
+    .btn-1 {
+        margin: 0 15px 0 105px; 
+    }
+
+    .nav-bar img {
+        display: block; 
+    }
+}
+
+
